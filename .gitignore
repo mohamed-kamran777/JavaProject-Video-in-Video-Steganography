@@ -1,0 +1,24 @@
+
+# Maven build output
+target/
+
+# IntelliJ settings
+.idea/
+*.iml
+
+# Temporary video frames
+frames/
+frames_backup/
+
+# Input videos
+input/*
+!input/.gitkeep
+
+# Generated output videos and metadata
+output/*
+!output/.gitkeep
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
